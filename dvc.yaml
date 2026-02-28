@@ -1,14 +1,4 @@
 stages:
-  scrape_data:
-    cmd: python src/scraper.py
-    deps:
-      - src/scraper.py
-    outs:
-      - data/raw/products_raw.json:
-          cache: true
-          persist: true
-    desc: "Scrape tech product data from GitHub API"
-    
   preprocess_data:
     cmd: python src/preprocess.py
     deps:
