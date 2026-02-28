@@ -1,0 +1,214 @@
+{
+  "unigrams": {
+    "top_30": [
+      [
+        "ai",
+        251
+      ],
+      [
+        "vue",
+        230
+      ],
+      [
+        "go",
+        161
+      ],
+      [
+        "learn",
+        147
+      ],
+      [
+        "python",
+        112
+      ],
+      [
+        "js",
+        107
+      ],
+      [
+        "api",
+        104
+      ],
+      [
+        "android",
+        96
+      ],
+      [
+        "php",
+        94
+      ],
+      [
+        "web",
+        92
+      ],
+      [
+        "java",
+        85
+      ],
+      [
+        "app",
+        83
+      ],
+      [
+        "machine",
+        79
+      ],
+      [
+        "spr",
+        78
+      ],
+      [
+        "ui",
+        74
+      ],
+      [
+        "data",
+        61
+      ],
+      [
+        "qq",
+        59
+      ],
+      [
+        "sdk",
+        54
+      ],
+      [
+        "golang",
+        54
+      ],
+      [
+        "model",
+        50
+      ],
+      [
+        "github",
+        49
+      ],
+      [
+        "react",
+        49
+      ],
+      [
+        "boot",
+        48
+      ],
+      [
+        "deep",
+        45
+      ],
+      [
+        "ml",
+        42
+      ],
+      [
+        "mybati",
+        42
+      ],
+      [
+        "admin",
+        42
+      ],
+      [
+        "star",
+        40
+      ],
+      [
+        "com",
+        39
+      ],
+      [
+        "node",
+        38
+      ]
+    ],
+    "total": 10182,
+    "unique": 2455
+  },
+  "bigrams": {
+    "top_20": [
+      [
+        "machine learn",
+        78
+      ],
+      [
+        "deep learn",
+        38
+      ],
+      [
+        "go go",
+        38
+      ],
+      [
+        "vue js",
+        36
+      ],
+      [
+        "spr boot",
+        36
+      ],
+      [
+        "node js",
+        35
+      ],
+      [
+        "java java",
+        22
+      ],
+      [
+        "open source",
+        21
+      ],
+      [
+        "vue element",
+        20
+      ],
+      [
+        "artificial intelligence",
+        18
+      ],
+      [
+        "js vue",
+        16
+      ],
+      [
+        "spr cloud",
+        16
+      ],
+      [
+        "api api",
+        16
+      ],
+      [
+        "python python",
+        14
+      ],
+      [
+        "vue vue",
+        14
+      ],
+      [
+        "android ui",
+        14
+      ],
+      [
+        "curat list",
+        13
+      ],
+      [
+        "neural network",
+        12
+      ],
+      [
+        "learn deep",
+        12
+      ],
+      [
+        "element ui",
+        12
+      ]
+    ],
+    "total": 9882,
+    "unique": 5567
+  }
+}
