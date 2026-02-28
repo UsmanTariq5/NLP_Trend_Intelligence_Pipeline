@@ -1,0 +1,171 @@
+======================================================================
+TRENDSCOPE ANALYTICS - LINGUISTIC INTELLIGENCE REPORT
+======================================================================
+
+DATASET OVERVIEW
+----------------------------------------------------------------------
+Total Products Analyzed: 300
+Vocabulary Size: 2455
+Total Tokens: 10182
+Average Description Length: 33.94 tokens
+Min Description Length: 3 tokens
+Max Description Length: 3145 tokens
+
+TOP 30 UNIGRAMS
+----------------------------------------------------------------------
+ 1. ai                   -  251 occurrences
+ 2. vue                  -  230 occurrences
+ 3. go                   -  161 occurrences
+ 4. learn                -  147 occurrences
+ 5. python               -  112 occurrences
+ 6. js                   -  107 occurrences
+ 7. api                  -  104 occurrences
+ 8. android              -   96 occurrences
+ 9. php                  -   94 occurrences
+10. web                  -   92 occurrences
+11. java                 -   85 occurrences
+12. app                  -   83 occurrences
+13. machine              -   79 occurrences
+14. spr                  -   78 occurrences
+15. ui                   -   74 occurrences
+16. data                 -   61 occurrences
+17. qq                   -   59 occurrences
+18. sdk                  -   54 occurrences
+19. golang               -   54 occurrences
+20. model                -   50 occurrences
+21. github               -   49 occurrences
+22. react                -   49 occurrences
+23. boot                 -   48 occurrences
+24. deep                 -   45 occurrences
+25. ml                   -   42 occurrences
+26. mybati               -   42 occurrences
+27. admin                -   42 occurrences
+28. star                 -   40 occurrences
+29. com                  -   39 occurrences
+30. node                 -   38 occurrences
+
+TOP 20 BIGRAMS
+----------------------------------------------------------------------
+ 1. machine learn                  -   78 occurrences
+ 2. deep learn                     -   38 occurrences
+ 3. go go                          -   38 occurrences
+ 4. vue js                         -   36 occurrences
+ 5. spr boot                       -   36 occurrences
+ 6. node js                        -   35 occurrences
+ 7. java java                      -   22 occurrences
+ 8. open source                    -   21 occurrences
+ 9. vue element                    -   20 occurrences
+10. artificial intelligence        -   18 occurrences
+11. js vue                         -   16 occurrences
+12. spr cloud                      -   16 occurrences
+13. api api                        -   16 occurrences
+14. python python                  -   14 occurrences
+15. vue vue                        -   14 occurrences
+16. android ui                     -   14 occurrences
+17. curat list                     -   13 occurrences
+18. neural network                 -   12 occurrences
+19. learn deep                     -   12 occurrences
+20. element ui                     -   12 occurrences
+
+MOST COMMON CATEGORIES/LANGUAGES
+----------------------------------------------------------------------
+ 1. Python               - 128 products
+ 2. Jupyter Notebook     -  41 products
+ 3. Rust                 -  13 products
+ 4. JavaScript           -  12 products
+ 5. Go                   -   8 products
+ 6. C++                  -   6 products
+ 7. TypeScript           -   5 products
+ 8. HTML                 -   4 products
+ 9. Scala                -   4 products
+10. C#                   -   4 products
+11. MDX                  -   3 products
+12. Java                 -   3 products
+13. Swift                -   3 products
+14. C                    -   2 products
+15. Shell                -   2 products
+
+MOST COMMON TAGS
+----------------------------------------------------------------------
+ 1. machine-learning               - 287 occurrences
+ 2. ai                             - 167 occurrences
+ 3. deep-learning                  - 131 occurrences
+ 4. python                         - 101 occurrences
+ 5. artificial-intelligence        - 100 occurrences
+ 6. data-science                   -  69 occurrences
+ 7. pytorch                        -  51 occurrences
+ 8. tensorflow                     -  45 occurrences
+ 9. llm                            -  43 occurrences
+10. computer-vision                -  40 occurrences
+11. ml                             -  39 occurrences
+12. mlops                          -  34 occurrences
+13. nlp                            -  31 occurrences
+14. neural-network                 -  28 occurrences
+15. natural-language-processing    -  25 occurrences
+16. chatbot                        -  17 occurrences
+17. reinforcement-learning         -  17 occurrences
+18. openai                         -  16 occurrences
+19. generative-ai                  -  16 occurrences
+20. large-language-models          -  14 occurrences
+
+TOP 10 UNIGRAM PROBABILITIES
+----------------------------------------------------------------------
+ 1. ai                   - P = 0.100200
+ 2. vue                  - P = 0.091816
+ 3. go                   - P = 0.064271
+ 4. learn                - P = 0.058683
+ 5. python               - P = 0.044711
+ 6. js                   - P = 0.042715
+ 7. api                  - P = 0.041517
+ 8. android              - P = 0.038323
+ 9. php                  - P = 0.037525
+10. web                  - P = 0.036727
+
+DUPLICATE DETECTION (Minimum Edit Distance ≤ 3)
+----------------------------------------------------------------------
+ 1. Distance=3 | OpenBB <-> openarm
+ 2. Distance=3 | airflow <-> mlflow
+ 3. Distance=3 | airflow <-> sqlflow
+ 4. Distance=3 | airflow <-> AdalFlow
+ 5. Distance=2 | airflow <-> arkflow
+ 6. Distance=3 | ray <-> spaCy
+ 7. Distance=3 | ray <-> dvc
+ 8. Distance=3 | ray <-> cog
+ 9. Distance=2 | ray <-> lab
+10. Distance=3 | ray <-> aim
+11. Distance=3 | ray <-> Daft
+12. Distance=3 | ray <-> djl
+13. Distance=2 | ray <-> rl
+14. Distance=2 | ray <-> pai
+15. Distance=3 | ray <-> ort
+16. Distance=2 | ray <-> xai
+17. Distance=3 | ray <-> sail
+18. Distance=3 | qlib <-> Qbot
+19. Distance=2 | qlib <-> lab
+20. Distance=3 | qlib <-> aim
+... and 146 more
+
+Total potential duplicates: 166
+
+LANGUAGE MODEL PERPLEXITY (5 Held-Out Descriptions)
+----------------------------------------------------------------------
+Document 1: Perplexity = 1311.06
+Document 2: Perplexity = 2521.83
+Document 3: Perplexity = 772.30
+Document 4: Perplexity = 1005.49
+Document 5: Perplexity = 577.06
+
+Average Perplexity: 1237.55
+
+KEY INSIGHTS
+----------------------------------------------------------------------
+1. The dataset contains diverse tech products with rich descriptions.
+2. Top terms like 'ai' appear 251 times.
+3. Average description length is 33.9 tokens per product.
+4. Found 166 potential near-duplicates using edit distance.
+5. Language model perplexity: 1237.55
+   (Lower perplexity indicates better language model fit)
+
+======================================================================
+END OF REPORT
+======================================================================

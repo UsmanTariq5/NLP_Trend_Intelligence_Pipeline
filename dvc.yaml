@@ -1,0 +1,53 @@
+stages:
+  scrape_data:
+    cmd: python src/scraper.py
+    deps:
+      - src/scraper.py
+    outs:
+      - data/raw/products_raw.json:
+          cache: true
+          persist: true
+    desc: "Scrape tech product data from GitHub API"
+    
+  preprocess_data:
+    cmd: python src/preprocess.py
+    deps:
+      - src/preprocess.py
+      - data/raw/products_raw.json
+    outs:
+      - data/processed/products_clean.csv:
+          cache: true
+          persist: true
+    desc: "Clean and normalize text data"
+    
+  generate_features:
+    cmd: python src/representation.py
+    deps:
+      - src/representation.py
+      - data/processed/products_clean.csv
+    outs:
+      - data/features/vocab.json:
+          cache: true
+          persist: true
+      - data/features/bow_matrix.npy:
+          cache: true
+          persist: true
+      - data/features/onehot_sample.npy:
+          cache: true
+          persist: true
+      - data/features/ngram_frequencies.json:
+          cache: true
+          persist: true
+    desc: "Generate NLP features and representations"
+    
+  compute_statistics:
+    cmd: python src/statistics.py
+    deps:
+      - src/statistics.py
+      - data/processed/products_clean.csv
+      - data/features/ngram_frequencies.json
+    outs:
+      - reports/trend_summary.txt:
+          cache: false
+          persist: true
+    desc: "Generate linguistic intelligence report"
