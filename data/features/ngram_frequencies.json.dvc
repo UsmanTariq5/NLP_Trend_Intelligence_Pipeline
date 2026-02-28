@@ -1,0 +1,5 @@
+outs:
+- md5: f4fae0158b03d8346abf1db2a203dcd0
+  size: 2701
+  hash: md5
+  path: ngram_frequencies.json

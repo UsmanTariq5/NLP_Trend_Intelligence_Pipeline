@@ -1,43 +1,16 @@
-stages:
-  preprocess_data:
-    cmd: python src/preprocess.py
-    deps:
-      - src/preprocess.py
-      - data/raw/products_raw.json
-    outs:
-      - data/processed/products_clean.csv:
-          cache: true
-          persist: true
-    desc: "Clean and normalize text data"
-    
-  generate_features:
-    cmd: python src/representation.py
-    deps:
-      - src/representation.py
-      - data/processed/products_clean.csv
-    outs:
-      - data/features/vocab.json:
-          cache: true
-          persist: true
-      - data/features/bow_matrix.npy:
-          cache: true
-          persist: true
-      - data/features/onehot_sample.npy:
-          cache: true
-          persist: true
-      - data/features/ngram_frequencies.json:
-          cache: true
-          persist: true
-    desc: "Generate NLP features and representations"
-    
-  compute_statistics:
-    cmd: python src/statistics.py
-    deps:
-      - src/statistics.py
-      - data/processed/products_clean.csv
-      - data/features/ngram_frequencies.json
-    outs:
-      - reports/trend_summary.txt:
-          cache: false
-          persist: true
-    desc: "Generate linguistic intelligence report"
+# DVC Pipeline Configuration
+# Note: For this assignment, data files are tracked individually with 'dvc add'
+# This file serves as documentation of the pipeline stages
+
+# Pipeline stages (for reference):
+# 1. scrape_data: Collect tech product data from GitHub API
+# 2. preprocess_data: Clean and normalize text data
+# 3. generate_features: Create BoW, vocab, and n-gram representations
+# 4. compute_statistics: Generate linguistic intelligence report
+
+# To run the full pipeline manually:
+# python src/scraper.py
+# python src/preprocess.py
+# python src/representation.py
+# python src/statistics.py
+
